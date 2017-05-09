@@ -1,0 +1,141 @@
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  background-color: #fff; }
+  body header {
+    position: fixed;
+    top: 0;
+    line-height: 100px;
+    background-color: #262626;
+    width: 100%; }
+    body header .container .row .nav {
+      text-align: right; }
+      body header .container .row .nav li:first-child {
+        margin: 0; }
+      body header .container .row .nav li {
+        display: inline-block;
+        margin: 0 0 0 50px; }
+        body header .container .row .nav li a:hover {
+          color: #ff6760; }
+        body header .container .row .nav li a {
+          text-transform: uppercase;
+          color: #d9d9d9;
+          font-size: 12px;
+          text-decoration: none; }
+  body .darck_bg {
+    background-color: #2a2a2a; }
+    body .darck_bg .container {
+      text-align: center; }
+      body .darck_bg .container h1 {
+        text-align: center;
+        color: #d9d9d9;
+        margin: 160px 0 30px;
+        font-size: 60px;
+        font-weight: 300; }
+        body .darck_bg .container h1 span {
+          font-weight: 900; }
+      body .darck_bg .container p {
+        color: #d9d9d9;
+        font-size: 40px;
+        font-weight: 300;
+        margin: 0 0 50px; }
+        body .darck_bg .container p span {
+          font-weight: 300;
+          font-style: italic; }
+      body .darck_bg .container button {
+        background-color: #ff6760;
+        font-weight: 900;
+        text-transform: uppercase;
+        color: #fff;
+        line-height: 50px;
+        padding: 0 40px;
+        -webkit-border-radius: 5px;
+                border-radius: 5px;
+        cursor: pointer;
+        margin: 0 0 60px; }
+  body .gray_bg {
+    padding: 80px 0 90px;
+    background-color: #f8f8f8; }
+    body .gray_bg .container .services {
+      text-align: center; }
+      body .gray_bg .container .services li {
+        display: inline-block;
+        width: 230px;
+        color: #616161;
+        margin: 0 25px 25px; }
+        body .gray_bg .container .services li i {
+          font-size: 60px; }
+        body .gray_bg .container .services li h3 {
+          padding: 30px 0 15px;
+          font-size: 18px;
+          font-weight: 900; }
+  body .white_bg {
+    padding: 60px 0 80px;
+    color: #616161; }
+    body .white_bg .container {
+      text-align: center; }
+      body .white_bg .container h2 {
+        font-size: 30px;
+        margin: 0 0 20px;
+        font-weight: 900; }
+      body .white_bg .container p {
+        font-size: 20px;
+        font-weight: 300;
+        margin: 0 0 55px; }
+      body .white_bg .container .buttons li {
+        display: inline-block; }
+        body .white_bg .container .buttons li a {
+          display: inline-block;
+          -webkit-border-radius: 3px;
+                  border-radius: 3px;
+          line-height: 35px;
+          padding: 0 20px;
+          background-color: #ff6760;
+          color: #fff;
+          font-weight: 900;
+          font-size: 12px;
+          text-decoration: none;
+          text-transform: uppercase;
+          letter-spacing: 0.25px;
+          margin: 0 4px 25px; }
+      body .white_bg .container .galery li {
+        display: inline-block;
+        width: 270px;
+        margin: 0 0 3px; }
+  body .pre_footer {
+    background-color: #2a2a2a;
+    padding: 60px 0 60px;
+    text-align: center; }
+    body .pre_footer h4 {
+      font-weight: 900;
+      font-size: 30px;
+      color: #bebebe;
+      margin: 0 0 15px; }
+    body .pre_footer p {
+      font-weight: 300;
+      font-size: 20px;
+      color: #bebebe;
+      margin: 0 0 25px; }
+    body .pre_footer .contacts {
+      margin: 0 0 25px; }
+      body .pre_footer .contacts li {
+        margin: 0 20px;
+        display: inline-block;
+        color: #bebebe; }
+        body .pre_footer .contacts li i {
+          color: #ff6760; }
+    body .pre_footer .social li {
+      display: inline-block;
+      width: 30px;
+      line-height: 30px;
+      background-color: #ff6760;
+      -webkit-border-radius: 50%;
+              border-radius: 50%;
+      margin: 0 5px; }
+      body .pre_footer .social li a {
+        color: #fff; }
+  body footer {
+    color: #bebebe;
+    text-align: center;
+    background-color: #262626;
+    padding: 35px 0; }
