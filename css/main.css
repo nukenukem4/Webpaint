@@ -2,12 +2,59 @@ body {
   font-family: 'Lato', sans-serif;
   font-size: 14px;
   background-color: #fff; }
+  body .hide {
+    display: none; }
   body header {
     position: fixed;
     top: 0;
     line-height: 100px;
     background-color: #262626;
     width: 100%; }
+    body header .menu_mobile_full {
+      display: none; }
+    body header .open {
+      display: block;
+      z-index: 99;
+      width: 100%;
+      min-height: 100%;
+      background-color: rgba(0, 0, 0, 0.95);
+      overflow: hidden;
+      position: fixed;
+      top: 0px;
+      text-align: center; }
+      body header .open #close {
+        position: fixed;
+        top: 5px;
+        right: 20px;
+        font-size: 30px;
+        color: #fff;
+        cursor: pointer; }
+      body header .open .menu {
+        display: inline-block;
+        margin: 20px 0;
+        line-height: 50px; }
+        body header .open .menu li {
+          list-style: none; }
+          body header .open .menu li a {
+            text-transform: uppercase;
+            color: #d9d9d9;
+            font-size: 12px;
+            text-decoration: none; }
+    @media (max-width: 993px) {
+      body header .container .row .nav {
+        display: none; }
+      body header .container .row .mobile_menu {
+        text-align: right;
+        position: relative !important;
+        width: 50%;
+        opacity: 1 !important;
+        float: right;
+        color: #fff;
+        font-size: 20px;
+        cursor: pointer; } }
+    body header .container .row .mobile_menu {
+      position: absolute;
+      opacity: 0; }
     body header .container .row .nav {
       text-align: right; }
       body header .container .row .nav li:first-child {
